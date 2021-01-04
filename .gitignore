@@ -1,0 +1,11 @@
+node_modules/
+.env.*
+build
+*.log
+.eslintcache
+.npm
+.node_repl_history
+*.tgz
+.vscode-test
+**/.DS_STORE
+**/.DS_Store

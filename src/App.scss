@@ -1,0 +1,49 @@
+@import './styles/reset.scss';
+@import './styles/variables.scss';
+
+.App {
+	display: flex;
+	flex-direction: column;
+	max-width: 1000px;
+	margin: 0 auto;
+	height: 100vh;
+	// min-height: 100vh;
+	// overflow: hidden;
+
+	.App-Page {
+		position: relative;
+		flex: 1 auto;
+		height: 100%;
+		padding: 14px;
+		overflow: auto;
+		color: rgb(215, 229, 233);
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: $main-color;
+	}
+
+	// Scrollbars
+
+	::-webkit-scrollbar {
+		width: 10px; /* for vertical scrollbars */
+		height: 10px; /* for horizontal scrollbars */
+	}
+
+	::-webkit-scrollbar-track {
+		background: rgba(0, 0, 0, 0.75);
+	}
+
+	::-webkit-scrollbar-thumb {
+		background: rgba(48, 168, 184, 1);
+
+		&:hover {
+			cursor: pointer !important;
+		}
+	}
+}

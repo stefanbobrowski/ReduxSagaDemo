@@ -1,0 +1,7 @@
+const AppConfigTypes = {
+	APP_CONFIG_REQUEST: 'APP_CONFIG_REQUEST',
+	APP_CONFIG_SUCCESS: 'APP_CONFIG_SUCCESS',
+	APP_CONFIG_FAILURE: 'APP_CONFIG_FAILURE',
+};
+
+export default AppConfigTypes;

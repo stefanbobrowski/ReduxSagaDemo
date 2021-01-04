@@ -1,0 +1,31 @@
+{
+	"title": "Redux Saga Demo",
+	"author": "Stefan Bobrowski",
+	"logoUrl": "/logo.png",
+	"bgColor": "#777",
+	"pageBgColor": "#333",
+	"pages": [
+		{
+			"title": "Home",
+			"url:": "/",
+			"text": "This is the Home page. This text and the sections below come from public/appConfig.json",
+			"sections": [
+				{
+					"type": "text",
+					"title": "Section I",
+					"text": "This is section 1 text."
+				},
+				{
+					"type": "text",
+					"title": "Section II",
+					"text": "This is section 2 text."
+				}
+			]
+		},
+		{
+			"title": "Demo",
+			"url:": "/demo",
+			"text": "This is the Demo page. Below is an asynchronous request made with <a href=\"https://redux-saga.js.org/\" target=\"blank\">redux-saga</a>."
+		}
+	]
+}
