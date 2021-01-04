@@ -15,7 +15,3 @@ export function* getDemoSaga() {
 		yield put({ type: 'DEMO_FAILURE', error: error });
 	}
 }
-
-// export function* appC) {
-// 	yield all([call(getdemoSaga)]);
-// }

@@ -15,7 +15,3 @@ export function* getAppConfigSaga() {
 		yield put({ type: 'APP_CONFIG_FAILURE', error: error });
 	}
 }
-
-// export function* appC) {
-// 	yield all([call(getAppConfigSaga)]);
-// }
