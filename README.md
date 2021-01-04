@@ -3,17 +3,18 @@
 Redux Saga demo app.
 
 Package includes:
-axios
-react
-react-redux
-react-router-dom
-react-scripts
-redux
-redux-saga
-sass
-eslint
-prettier
-redux-logger
+
+- axios
+- react
+- react-redux
+- react-router-dom
+- react-scripts
+- redux
+- redux-saga
+- sass
+- eslint
+- prettier
+- redux-logger
 
 ## Getting Started
 
