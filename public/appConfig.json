@@ -8,12 +8,12 @@
 		{
 			"title": "Home",
 			"url:": "/",
-			"text": "This is the Home page. This text and the sections below come from public/appConfig.json",
+			"text": "A demo of <a href=\"https://recoiljs.org/\" target=\"_blank\" rel=\"noreferrer\">Redux Saga</a>, another state management library for React.",
 			"sections": [
 				{
 					"type": "text",
 					"title": "Section I",
-					"text": "This is section 1 text."
+					"text": "This text and the sections below come from public/appConfig.json"
 				},
 				{
 					"type": "text",
@@ -25,7 +25,7 @@
 		{
 			"title": "Demo",
 			"url:": "/demo",
-			"text": "This is the Demo page. Below is an asynchronous request made with <a href=\"https://redux-saga.js.org/\" target=\"blank\">redux-saga</a>."
+			"text": "This is the Redux Saga Demo page. An async request is made below (Check network tab)."
 		}
 	]
 }

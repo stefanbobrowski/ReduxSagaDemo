@@ -30,6 +30,7 @@ export const Demo = () => {
 		<div className='App-Page'>
 			<h2>{demoPage.title}</h2>
 			<div dangerouslySetInnerHTML={{ __html: demoPage.text }} />
+			<br></br>
 			<div>
 				<h4>Async Request</h4>
 				{demoAsync ? (

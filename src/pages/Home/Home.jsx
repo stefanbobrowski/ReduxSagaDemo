@@ -12,7 +12,7 @@ export const Home = () => {
 	return (
 		<div className='App-Page'>
 			<h2>{homePage.title}</h2>
-			<p>{homePage.text}</p>
+			<p dangerouslySetInnerHTML={{ __html: homePage.text }} />
 
 			<div>
 				{homePage.sections.map((section, i) => (

@@ -5,9 +5,9 @@ import './Header.scss';
 export const Header = () => {
 	return (
 		<header className='App-Header'>
-			<a href='/' className='banner-container'>
+			<Link to='/' className='banner-container'>
 				a
-			</a>
+			</Link>
 			<nav>
 				<Link to='/'>Home</Link>
 				<Link to='/demo'>Demo</Link>
